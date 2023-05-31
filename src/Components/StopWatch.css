@@ -1,0 +1,103 @@
+:root
+{
+    --text-color : #f5f4f8;
+    --btn-color  : #63b8b1;
+    --active-text : #549691;
+}
+
+*{
+    color: var(--text-color);
+}
+h1
+{
+    margin: 0;
+}
+.card {
+    padding: 3rem;
+    position: relative;
+    background: #345566;
+    box-shadow: #d11bff42 0 15px 40px -5px;
+    z-index: 1;
+    border-radius: 21px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #1f2633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle > p
+{
+    margin: 0;
+}
+
+.text
+{
+    font-size: 14px;
+    word-spacing: 18px;
+    color: #69707e;
+}
+
+.btnDiv
+{
+    display: flex;
+    gap: .8rem;
+}
+
+.btn
+{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    color: var(--active-text);
+}
+
+.btn:hover
+{
+    background-color:var(--btn-color);
+    color: var(--text-color);
+}
+
+.lapDiv
+{
+    width: 100%;
+
+}
+.lapHeader
+{
+    background-color: #69707e;
+    width: 100%;
+    font-size: 14px;
+    display: inline-flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0;
+}
+
+.lapContent 
+{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    word-spacing: 6rem;
+    
+}
